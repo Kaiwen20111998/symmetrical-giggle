@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Interaction Details</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Comfortaa", sans-serif;
+            color: black;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-4 sm:p-6 lg:p-8" style="background-color: #00344a;">
+<div class="flex flex-col md:flex-row gap-6 max-w-full mx-auto">
+    <!-- Left/Main Section - Customer Interaction Details -->
+    <div class="md:w-3/5 w-full">
+        <h1 class="text-3xl font-extrabold text-neutral-900 mb-8 text-center" style="color: whitesmoke">Customer Service
+            Interactions</h1>
+
+        <!-- Interaction Card Template (Repeated for each entry) -->
+
+        <!-- EARLY CHECK-IN -->
+        <div class="interaction-card bg-white rounded-xl shadow-lg p-6 mb-6 border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">Early Check-in</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Contact Name:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Reason:</strong> <span class="text-gray-600">Early check-in request.</span>
+                    </p>
+                    <p class="text-gray-700"><strong class="font-semibold">Ticket Link:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Follow-up Needed:</strong> <span
+                            class="text-gray-600">No</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Expectations Set:</strong> <span
+                            class="text-gray-600">Get early check-in.</span></p>
+                </div>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+                <p class="text-gray-700"><strong class="font-semibold">Interaction Details:</strong> <span
+                        class="text-gray-600">The guest contacted us to get an early check-in.</span></p>
+            </div>
+            <div class="mt-6 text-right">
+                <button class="copy-card-button bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                    Copy Card
+                </button>
+                <div class="copy-message-local mt-2 text-green-700 font-semibold opacity-0 transition-opacity duration-300 text-left"></div>
+            </div>
+        </div>
+
+        <!-- LATE CHECKOUT -->
+        <div class="interaction-card bg-white rounded-xl shadow-lg p-6 mb-6 border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">Late Checkout</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Contact Name:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Reason:</strong> <span class="text-gray-600">Late checkout request.</span>
+                    </p>
+                    <p class="text-gray-700"><strong class="font-semibold">Ticket Link:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Follow-up Needed:</strong> <span
+                            class="text-gray-600">No</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Expectations Set:</strong> <span
+                            class="text-gray-600">Get late checkout.</span></p>
+                </div>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+                <p class="text-gray-700"><strong class="font-semibold">Interaction Details:</strong> <span
+                        class="text-gray-600">The guest contacted us to get a late checkout. I provided to the guest the cost and if the property offers that option.</span>
+                </p>
+            </div>
+            <div class="mt-6 text-right">
+                <button class="copy-card-button bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                    Copy Card
+                </button>
+                <div class="copy-message-local mt-2 text-green-700 font-semibold opacity-0 transition-opacity duration-300 text-left"></div>
+            </div>
+        </div>
+
+        <!-- PARKING PASSES -->
+        <div class="interaction-card bg-white rounded-xl shadow-lg p-6 mb-6 border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">Parking Passes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Contact Name:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Reason:</strong> <span class="text-gray-600">Parking passes.</span>
+                    </p>
+                    <p class="text-gray-700"><strong class="font-semibold">Ticket Link:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Follow-up Needed:</strong> <span
+                            class="text-gray-600">No</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Expectations Set:</strong> <span
+                            class="text-gray-600">Get the parking passes.</span></p>
+                </div>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+                <p class="text-gray-700"><strong class="font-semibold">Interaction Details:</strong> <span
+                        class="text-gray-600">The guest contacted us to get the parking passes. I provided the information based on the unit information page.</span>
+                </p>
+            </div>
+            <div class="mt-6 text-right">
+                <button class="copy-card-button bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                    Copy Card
+                </button>
+                <div class="copy-message-local mt-2 text-green-700 font-semibold opacity-0 transition-opacity duration-300 text-left"></div>
+            </div>
+        </div>
+
+        <!-- AMENITIES PASSES -->
+        <div class="interaction-card bg-white rounded-xl shadow-lg p-6 mb-6 border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">Amenities Passes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Contact Name:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Reason:</strong> <span class="text-gray-600">Amenities passes.</span>
+                    </p>
+                    <p class="text-gray-700"><strong class="font-semibold">Ticket Link:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Follow-up Needed:</strong> <span
+                            class="text-gray-600">No</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Expectations Set:</strong> <span
+                            class="text-gray-600">Get the amenity passes.</span></p>
+                </div>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+                <p class="text-gray-700"><strong class="font-semibold">Interaction Details:</strong> <span
+                        class="text-gray-600">The guest contacted us to get the amenity passes. I provided the information based on the unit information page.</span>
+                </p>
+            </div>
+            <div class="mt-6 text-right">
+                <button class="copy-card-button bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                    Copy Card
+                </button>
+                <div class="copy-message-local mt-2 text-green-700 font-semibold opacity-0 transition-opacity duration-300 text-left"></div>
+            </div>
+        </div>
+
+        <!-- DOOR CODES -->
+        <div class="interaction-card bg-white rounded-xl shadow-lg p-6 mb-6 border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">Door Codes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Contact Name:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Reason:</strong> <span class="text-gray-600">Get door codes.</span>
+                    </p>
+                    <p class="text-gray-700"><strong class="font-semibold">Ticket Link:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Follow-up Needed:</strong> <span
+                            class="text-gray-600">No</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Expectations Set:</strong> <span
+                            class="text-gray-600">Get door codes.</span></p>
+                </div>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+                <p class="text-gray-700"><strong class="font-semibold">Interaction Details:</strong> <span
+                        class="text-gray-600">Gave the guest the codes for the door and if available/permitted the lockbox code.</span>
+                </p>
+            </div>
+            <div class="mt-6 text-right">
+                <button class="copy-card-button bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                    Copy Card
+                </button>
+                <div class="copy-message-local mt-2 text-green-700 font-semibold opacity-0 transition-opacity duration-300 text-left"></div>
+            </div>
+        </div>
+
+        <!-- POOL CODES -->
+        <div class="interaction-card bg-white rounded-xl shadow-lg p-6 mb-6 border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">Pool Codes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Contact Name:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Reason:</strong> <span class="text-gray-600">Get pool codes.</span>
+                    </p>
+                    <p class="text-gray-700"><strong class="font-semibold">Ticket Link:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Follow-up Needed:</strong> <span
+                            class="text-gray-600">No</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Expectations Set:</strong> <span
+                            class="text-gray-600">Get pool codes.</span></p>
+                </div>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+                <p class="text-gray-700"><strong class="font-semibold">Interaction Details:</strong> <span
+                        class="text-gray-600">Gave the guest the codes for the pool.</span></p>
+            </div>
+            <div class="mt-6 text-right">
+                <button class="copy-card-button bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                    Copy Card
+                </button>
+                <div class="copy-message-local mt-2 text-green-700 font-semibold opacity-0 transition-opacity duration-300 text-left"></div>
+            </div>
+        </div>
+
+        <!-- AMENITIES CODES -->
+        <div class="interaction-card bg-white rounded-xl shadow-lg p-6 mb-6 border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">Amenities Codes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Contact Name:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Reason:</strong> <span class="text-gray-600">Get amenity codes.</span>
+                    </p>
+                    <p class="text-gray-700"><strong class="font-semibold">Ticket Link:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Follow-up Needed:</strong> <span
+                            class="text-gray-600">No</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Expectations Set:</strong> <span
+                            class="text-gray-600">Get amenities codes.</span></p>
+                </div>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+                <p class="text-gray-700"><strong class="font-semibold">Interaction Details:</strong> <span
+                        class="text-gray-600">Gave the guest the codes for the amenities.</span></p>
+            </div>
+            <div class="mt-6 text-right">
+                <button class="copy-card-button bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                    Copy Card
+                </button>
+                <div class="copy-message-local mt-2 text-green-700 font-semibold opacity-0 transition-opacity duration-300 text-left"></div>
+            </div>
+        </div>
+
+        <!-- NO RESPONSE NEEDED -->
+        <div class="interaction-card bg-white rounded-xl shadow-lg p-6 mb-6 border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">No Response Needed</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Contact Name:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Reason:</strong> <span class="text-gray-600">The guest just texted in to say thanks for the service provided.</span>
+                    </p>
+                    <p class="text-gray-700"><strong class="font-semibold">Ticket Link:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Follow-up Needed:</strong> <span
+                            class="text-gray-600">No</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Expectations Set:</strong> <span
+                            class="text-gray-600">No assistance needed because the issue was addressed properly.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+                <p class="text-gray-700"><strong class="font-semibold">Interaction Details:</strong> <span
+                        class="text-gray-600">No assistance needed with the issue reported in the property.</span></p>
+            </div>
+            <div class="mt-6 text-right">
+                <button class="copy-card-button bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                    Copy Card
+                </button>
+                <div class="copy-message-local mt-2 text-green-700 font-semibold opacity-0 transition-opacity duration-300 text-left"></div>
+            </div>
+        </div>
+
+        <!-- REPORTING ISSUES IN THE HOUSE -->
+        <div class="interaction-card bg-white rounded-xl shadow-lg p-6 mb-6 border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">Reporting Issues in the House</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Contact Name:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Reason:</strong> <span class="text-gray-600">The guest just texted in to report an issue with.</span>
+                    </p>
+                    <p class="text-gray-700"><strong class="font-semibold">Ticket Link:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Follow-up Needed:</strong> <span
+                            class="text-gray-600">Yes</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Expectations Set:</strong> <span
+                            class="text-gray-600">I apologized to the guest about the issue they are having with xxxx during their stay; I reassured the guest that we'll take care of this issue and alerted the LOM about the situation by submitting a ticket.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+                <p class="text-gray-700"><strong class="font-semibold">Interaction Details:</strong> <span
+                        class="text-gray-600">The guest is reporting a problem with XXXX. I followed the troubleshooting steps and addressed the issue. However, the problem required creating a ticket to get it solved.</span>
+                </p>
+            </div>
+            <div class="mt-6 text-right">
+                <button class="copy-card-button bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                    Copy Card
+                </button>
+                <div class="copy-message-local mt-2 text-green-700 font-semibold opacity-0 transition-opacity duration-300 text-left"></div>
+            </div>
+        </div>
+
+        <!-- MAKE A PAYMENT -->
+        <div class="interaction-card bg-white rounded-xl shadow-lg p-6 mb-6 border border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 border-b pb-2">Make a Payment</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Contact Name:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Reason:</strong> <span class="text-gray-600">Process a payment for their stay.</span>
+                    </p>
+                    <p class="text-gray-700"><strong class="font-semibold">Ticket Link:</strong> <span
+                            class="text-gray-600">N/A</span></p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><strong class="font-semibold">Follow-up Needed:</strong> <span
+                            class="text-gray-600">No</span></p>
+                    <p class="text-gray-700"><strong class="font-semibold">Expectations Set:</strong> <span
+                            class="text-gray-600">I helped the guest by taking the payment over the phone.</span></p>
+                </div>
+            </div>
+            <div class="mt-4 pt-4 border-t border-gray-200">
+                <p class="text-gray-700"><strong class="font-semibold">Interaction Details:</strong> <span
+                        class="text-gray-600">The guest contacted us to process a payment. I paused the recording while taking the guest's payment information. When payment was done, I did resume call recording and confirmed the guest the payment resolution.</span>
+                </p>
+            </div>
+            <div class="mt-6 text-right">
+                <button class="copy-card-button bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
+                    Copy Card
+                </button>
+                <div class="copy-message-local mt-2 text-green-700 font-semibold opacity-0 transition-opacity duration-300 text-left"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right/New Section - Additional Information -->
+    <div class="md:w-2/5 w-full bg-white rounded-xl shadow-lg p-6 border border-gray-200 h-fit">
+        <h1 class="text-3xl font-extrabold text-gray-900 mb-8 text-center">Additional Information</h1>
+
+        <!-- Closing Statement -->
+        <div class="template-section mb-6 pb-4 border-b border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">Closing Statement</h2>
+            <p class="text-gray-700 mb-2">Is there anything else I can help you with today? Please don't hesitate to
+                ask; we're always happy to help!</p>
+        </div>
+
+        <!-- Opening Statements -->
+        <div class="template-section mb-6 pb-4 border-b border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">Opening Statements</h2>
+            <p class="text-gray-700 mb-2"><strong class="font-semibold">Default:</strong> Hi there! Thanks so much for
+                reaching out to Vacasa. How can I best help you today?</p>
+            <p class="text-gray-700 mb-2"><strong class="font-semibold">With Reservation Check:</strong> Hi there!
+                Thanks for reaching out to Vacasa. Would you mind giving me just a moment while I quickly check your
+                reservation? I want to make sure I provide you with the most accurate information right away.</p>
+            <p class="text-gray-700 mb-2"><strong class="font-semibold">Short Version:</strong> Would you mind giving me
+                just a moment while I quickly check your reservation? I want to ensure I provide you with the most
+                accurate information.
+            </p>
+        </div>
+
+        <!-- If Not Reservation Found -->
+        <div class="template-section mb-6 pb-4 border-b border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">If No Reservation Found</h2>
+            <p class="text-gray-700">To help me locate your reservation, would you be able to kindly share your first
+                and last name, phone number, and email address? That would be wonderful! Thank you so much for your
+                help!</p>
+        </div>
+
+        <!-- Empathy Statements -->
+        <div class="template-section mb-6 pb-4 border-b border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">Empathy Statements</h2>
+            <p class="text-gray-700 mb-2">Oh dear, I'm so very sorry to hear you're experiencing some trouble with your
+                reservation! Please don't worry, I'm here to help, and we'll certainly get everything straightened out
+                for you as quickly as we possibly can.</p>
+            <p class="text-gray-700">I've gone ahead and alerted our local team about this issue, and they will be in
+                touch with you shortly. While I can't provide an exact time estimate right now, please know I've shared
+                your expectations for a prompt resolution with them.</p>
+        </div>
+
+        <!-- Tickets -->
+        <div class="template-section mb-6 pb-4 border-b border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">Tickets Follow-up</h2>
+            <p class="text-gray-700">Hey there! Please don't worry at all. We're already on it, and our team is working
+                diligently behind the scenes to get this sorted out for you. You'll hear from us as soon as we have a
+                positive update. In the meantime, is there anything else at all I can help you with today?</p>
+        </div>
+
+        <!-- Closing and Branding -->
+        <div class="template-section mb-6 pb-4 border-b border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">Closing and Branding</h2>
+            <p class="text-gray-700 mb-2">You're so very kind! Thank you so much for your patience and understanding. We
+                truly appreciate you reaching out to Vacasa. Please have a remarkable day yourself, and don't hesitate
+                to get in touch anytime if anything else comes up. We're always more than happy to help! Take care!</p>
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">Making a Payment</h2>
+            <p class="text-gray-700">Just a friendly reminder: for security reasons, we're unable to take
+                your card details via SMS. However, you're welcome to contact us directly at +1 800-544-0300. One of our
+                representatives would be absolutely delighted to help you process your payment securely through our
+                automated system.</p>
+        </div>
+
+        <!-- Early Check-in Availability -->
+        <div class="template-section mb-6 pb-4 border-b border-gray-200">
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">Early Check-in Availability</h2>
+            <p class="text-gray-700">If your stay qualifies for early check-in, you’ll receive an email or text on the
+                day of your arrival to let you know that your home is ready early, and there’s no fee for this service.
+                If you don’t receive a text or an email indicating that you’re eligible for early check-in, please note
+                that the standard check-in time will apply.</p>
+        </div>
+
+        <!-- Rating Cleaning in the House -->
+        <div class="template-section">
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">Rating Cleaning in the House</h2>
+            <p class="text-gray-700 mb-2"><strong class="font-semibold">Rating 3–4 in a chat:</strong> Hi, this is the
+                Vacasa Guest Experience Department. We see from your reply that there may be some room for improvement
+                in regard to the cleanliness of the home upon your arrival. If you are able to provide us with some
+                additional feedback, we would greatly appreciate your input on how we can improve. Have you noticed any
+                other issues with the home that need to be addressed at this time?</p>
+            <p class="text-gray-700"><strong class="font-semibold">Rating 2–1 in a chat:</strong> Thank you for reaching
+                out to the Vacasa Guest Experience Department in response to the survey we sent. I am sorry to hear that
+                the cleanliness of the home was not as expected upon your arrival. Are you open to receiving a phone
+                call to provide further details along with any additional feedback that could help us improve your
+                experience?</p>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded',
+        function () {
+            const copyCardButtons = document.querySelectorAll('.copy-card-button');
+            // Removed copyTemplateButtons as they are no longer needed
+
+            // Function to display a message temporarily
+            function showMessage(messageElement, message) {
+                messageElement.innerText = message;
+                messageElement.classList.remove('opacity-0');
+                messageElement.classList.add('opacity-100');
+                setTimeout(() => {
+                    messageElement.classList.remove('opacity-100');
+                    messageElement.classList.add('opacity-0');
+                }, 2000); // Hide message after 2 seconds
+            }
+
+            // Function to copy text to clipboard
+            function copyTextToClipboard(text, messageElement) {
+                const tempTextArea = document.createElement('textarea');
+                tempTextArea.value = text.trim();
+                document.body.appendChild(tempTextArea);
+                tempTextArea.select();
+                try {
+                    const successful = document.execCommand('copy');
+                    if (successful) {
+                        showMessage(messageElement, 'Details copied to clipboard!');
+                    } else {
+                        showMessage(messageElement, 'Failed to copy text. Please try manually.');
+                    }
+                } catch (err) {
+                    console.error('Error copying text:', err);
+                    showMessage(messageElement, 'Error copying text. Please try manually.');
+                } finally {
+                    document.body.removeChild(tempTextArea);
+                }
+            }
+
+            // Event listeners for individual "Copy Card" buttons
+            copyCardButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const card = this.closest('.interaction-card');
+                    const localCopyMessage = this.nextElementSibling; // Get the local message div
+
+                    if (card) {
+                        let cardText = "";
+                        // Now copying the entire paragraph text for each detail line, including bold and semicolon
+                        card.querySelectorAll(':scope > div:not(.mt-6) p').forEach(p => {
+                            cardText += p.innerText.trim() + '\n';
+                        });
+                        copyTextToClipboard(cardText, localCopyMessage);
+                    }
+                });
+            });
+        });
+</script>
+</body>
+</html>
